@@ -1,9 +1,11 @@
 """
-This program generates passages that are generated in mad-lib format.
+This program generates passages in mad-lib game format.
 Author: Paulina Gorecka
 """
 
-STORY = "This morning %s woke up feeling %s. 'It is going to be a %s day!' Outside, a bunch of %ss were protesting to keep %s in stores. They began to %s to the rhythm of the %s, which made all the %ss very %s. Concerned, %s texted %s, who flew %s to %s and dropped %s in a puddle of frozen %s. %s woke up in the year %s, in a world where %ss ruled the world."
+STORY = "This morning %s woke up feeling %s. 'It is going to be a %s day!' Outside, a bunch of %ss were protesting to keep %s in stores. 
+They began to %s to the rhythm of the %s, which made all the %ss very %s. Concerned, %s texted %s, who flew %s to %s and dropped %s in 
+a puddle of frozen %s. %s woke up in the year %s, in a world where %ss ruled the world."
 
 print "Mad Libs has started!"
 
@@ -22,7 +24,8 @@ country = raw_input("Enter the name of a country: ")
 dessert = raw_input("Any dessert: ")
 year = raw_input("A year of your choice: ")
 
-print STORY % (name, adjective_1, adjective_2, animal, food, verb, noun_1, fruit, adjective_3, name, superhero, name, country, name, dessert, name, year, noun_2)
+print STORY % (name, adjective_1, adjective_2, animal, food, verb, noun_1, fruit, adjective_3, name, superhero, name, country, name, 
+dessert, name, year, noun_2)
 
 
 
